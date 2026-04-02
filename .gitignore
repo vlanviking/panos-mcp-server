@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+panos_mcp_audit.log
+*.egg-info/
+dist/
+build/
