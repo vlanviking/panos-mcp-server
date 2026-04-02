@@ -146,15 +146,7 @@ def _require_write():
 # ══════════════════════════════════════════════
 # MCP Server definition
 # ══════════════════════════════════════════════
-mcp = FastMCP(
-    "panos-firewall-manager",
-    description=(
-        "Manage Palo Alto Networks firewalls via PAN-OS XML API. "
-        "Provides tools for system ops, security/NAT policy, network "
-        "configuration, object management, VPN, User-ID, logging, "
-        "and HA operations."
-    ),
-)
+mcp = FastMCP("panos-firewall-manager")
 
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
