@@ -156,7 +156,7 @@ Use PAN-OS admin roles to scope the API key:
 > "Show me the BGP peers and the local RIB on the default virtual router."
 
 **Panorama push:**
-> "Push the shared policy to the 'Circa-CLV' device group."
+> "Push the shared policy to the 'Prod-IT' device group."
 
 ## Multi-Firewall Setup
 
